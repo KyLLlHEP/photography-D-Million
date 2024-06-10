@@ -38,3 +38,14 @@ button {
     margin: 0 auto;
     position: relative;
 }
+.btn{
+    width: 286px;
+    height: 86px;
+    background-color: var(--main-text);
+    border-radius: 15px;
+    border: none;
+    font-family: 'Alata';
+    font-size: 36px;
+    color: var(--white);
+    font-weight: 400;
+}

@@ -1,0 +1,52 @@
+.home {
+    position: relative;
+    background: url('../../imgages/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right 1px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    text-align: center; 
+}
+.home__content{
+    /* width: 745px; */
+    height: 645px;
+    margin-top: 80px;
+    margin-left: 100px;
+}
+.home__content-title{
+    letter-spacing: 1.3;
+    position: relative;
+}
+.home__content-title-first {
+    font-family: 'Abhaya Libre';
+    font-size: 144px;
+    color: var(--main-text);
+    position: relative;
+    display: inline-block;
+    top: 10px;
+    left: -35px;
+}
+
+.home__content-title-second {
+    font-family: 'Abhaya Libre';
+    font-size: 144px;
+    color: var(--main-text);
+    display: inline-block;
+    position: relative;
+    left: -2px;
+}
+.home__content-description{
+    font-family: 'Abhaya Libre';
+    font-size: 36px;
+    color: var(--white);
+    margin-top: 20px; 
+    text-align: left;
+    letter-spacing: 0.01em;
+    padding-left: 5px;
+}
+.home__content-button{
+    margin-top: 46px;
+    margin-right: 128px;
+}
