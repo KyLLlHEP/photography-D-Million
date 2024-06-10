@@ -1,0 +1,98 @@
+.gallery {
+    margin-top: -1px;
+    position: relative;
+    background: url('../../imgages/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right 1px;
+    min-height: 1220px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    text-align: center; 
+}
+.gallery__carusel{
+    width: 1920px;
+    height: 927px;
+    margin-top: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    
+  
+}
+.slides-box{
+    width: 1792px;
+    height: 770px;
+    margin-left:84px ;
+    margin-top: 65px;
+    position: relative;
+    
+   
+}
+.gallery__carusel-navigation{
+    width: 232px;
+    height: 56px;
+    border: 3px solid red;
+    margin-bottom: 63px;
+    margin-left: 40px;
+    
+}
+.slide-item{
+    position: absolute;
+    border-radius: 40px;
+    transition: transform 0.5s ease, z-index 0.5s ease;
+    
+}
+.slide-5{
+    width: 1020px;
+    height: 607px;
+    border-radius: 40;
+    margin-top: 30px;
+    left: 25px;
+    background: url('../../imgages/slider/Slide\ Image-5.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+    
+}
+.slide-4{
+    width: 1020px;
+    height: 607px;
+    border-radius: 40;
+    margin-top: 30px;
+    left: 715px;
+    background: url('../../imgages/slider/Slide\ Image-4.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 2;
+}
+.slide-3{
+    width: 1132px;
+    height: 687px;
+    border-radius: 40;
+    background: url('../../imgages/slider/Slide\ Image-3.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 3;
+    margin-top: -10px;
+    left: 90px;
+}
+.slide-2{
+    width: 1132px;
+    height: 687px;
+    border-radius: 40;
+    background: url('../../imgages/slider/Slide\ Image-2.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 4;
+    margin-top: -10px;
+    left: 540px;
+}
+.slide-1 {
+    width: 1292px;
+    height: 767px;
+    border-radius: 40;
+    margin-top: -50px;
+    left: 225px;
+    background: url('../../imgages/slider/Slide\ Image-1.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: 5;
+}

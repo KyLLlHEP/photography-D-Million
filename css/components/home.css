@@ -1,4 +1,6 @@
 .home {
+    margin-top: -92px;
+    min-height: 1220px;
     position: relative;
     background: url('../../imgages/bg.jpg') no-repeat center center;
     background-size: cover;
@@ -10,7 +12,6 @@
     text-align: center; 
 }
 .home__content{
-    /* width: 745px; */
     height: 645px;
     margin-top: 80px;
     margin-left: 100px;

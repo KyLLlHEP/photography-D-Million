@@ -1,0 +1,13 @@
+.pricelist{
+    margin-top: -1px;
+    position: relative;
+    background: url('../../imgages/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right 1px;
+    min-height: 1080px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: var(--white);
+    text-align: center; 
+}
