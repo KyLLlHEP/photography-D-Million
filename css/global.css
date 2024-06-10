@@ -1,0 +1,40 @@
+body {
+    font-family: 'Noto Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f4f4f4; 
+    color: #333; 
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+img {
+        max-width: 100%;
+        height: auto;
+}
+h1, h2, h3, h4, h5, h6 {
+        margin: 0;
+        font-weight: normal;
+}    
+p {
+        margin: 0 0 1em 0;
+}    
+button {
+        cursor: pointer;
+}
+.main{
+    max-width: 1920px;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+}
