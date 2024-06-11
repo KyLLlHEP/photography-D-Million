@@ -1,0 +1,30 @@
+.contact{
+    margin-top: -1px;
+    position: relative;
+    background: url('../../imgages/bg.jpg') no-repeat center center;
+    background-size: cover;
+    background-position: right 1px;
+    display: flex;
+    min-height: 1280px;
+    height: 100vh;
+    align-items: center;
+    color: var(--white);
+    text-align: center;
+    
+}
+.contact-descr{
+    margin: 0 auto;
+    width: 950px;
+    border: 3px solid red;
+}
+.contact-title{
+    font-family: 'Alegreya SC';
+    font-size: 64px;
+    font-weight: 400;
+   
+}
+.contact-text{
+    font-family: 'ABeeZee';
+    font-size: 32px;
+    font-weight: 400;
+}
