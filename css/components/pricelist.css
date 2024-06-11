@@ -4,10 +4,46 @@
     background: url('../../imgages/bg.jpg') no-repeat center center;
     background-size: cover;
     background-position: right 1px;
+    display: flex;
     min-height: 1080px;
     height: 100vh;
-    display: flex;
     align-items: center;
     color: var(--white);
-    text-align: center; 
+    text-align: center;
+}
+.pricelist-container{
+    width: 1490px;
+    height: 800px;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+.pricelist__title{
+    margin-top: 5px;
+    margin-left: 80px;
+    font-family: 'Noto Sans';
+    font-size: 64px;
+    font-weight: 600;
+    color: var(--main-text);
+    letter-spacing: 0.05em;
+    
+}
+.pricelist__cards{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 5px;
+}
+.pricelist__card{
+    width: 298px;
+    height: 650px;
+    background-color: var(--card-color);
+    color: var(--card-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
