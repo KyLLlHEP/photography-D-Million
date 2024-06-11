@@ -28,7 +28,7 @@
     
 }
 .pricelist__cards{
-    margin-top: 80px;
+    margin-top: 70px;
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -37,13 +37,80 @@
 .pricelist__card{
     width: 298px;
     height: 650px;
+    font-family: 'Noto Sans';
+    letter-spacing: 0.1em;
     background-color: var(--card-color);
     color: var(--card-text);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
     font-size: 24px;
     border-radius: 10px;
     padding: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+/* Style card conntent */
+.pricelist__card-title {
+    font-size: 24px;
+    margin-top: 7px;
+    
+}
+.pricelist__card-price {
+    font-size: 30px;
+    font-weight: 600;
+}
+.pricelist__card-features{
+    letter-spacing: 0.04em;
+    margin: 60px 0 0 0;
+    font-size: 20px;
+    list-style: none;
+    padding: 0;
+    
+    
+}
+.pricelist__card-features li {
+    position: relative;
+    padding-left: 25px; 
+    margin-bottom: 20px; 
+    white-space: nowrap;
+}
+.pricelist__card-features li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 18px;
+    height: 18px;
+    background-color: var(--card-text); 
+    border-radius: 50%;
+}
+.pricelist__card-button{
+    width: 238px;
+    height: 60px;
+    background-color: var(--card-text);
+    color: var(--white);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 106px;
+    margin-left: 4px; 
+    align-self: center;
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+.pricelist__card-button:hover {
+    opacity: 0.8; 
+    transform: translateY(2px); 
+}
+
+.pricelist__card-button:active {
+    background-color: var(--main-text); 
+}
+
+
+
+
