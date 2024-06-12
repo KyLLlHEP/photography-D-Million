@@ -5,26 +5,117 @@
     background-size: cover;
     background-position: right 1px;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
     min-height: 1280px;
     height: 100vh;
     align-items: center;
     color: var(--white);
     text-align: center;
+    margin: 0 auto;
+    padding: 0;
     
 }
 .contact-descr{
-    margin: 0 auto;
     width: 950px;
-    border: 3px solid red;
+    margin-top: 355px;
+    margin-left: 10px;
+    
+    
 }
 .contact-title{
     font-family: 'Alegreya SC';
     font-size: 64px;
     font-weight: 400;
+    margin-bottom: 5px;
    
 }
 .contact-text{
     font-family: 'ABeeZee';
     font-size: 32px;
     font-weight: 400;
+}
+.contact-formwrapper{
+    width: 450px;
+    height: 550px;
+    background-color: var(--white);
+    border-radius: 21px;
+    margin-bottom: 173px;
+    margin-left: 10px;
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 10px 20px;
+    color: var(--black);
+    font-family: 'Tahoma';
+    font-weight: 400;
+    font-size: 20px;
+}
+.form-title{
+    font-family: 'Tahoma';
+    font-size: 20px;
+    font-weight: 400;
+
+}
+.form-row{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.required{
+    color: var(--red);
+}
+.form-input{
+    width: 100%;
+    min-height: 50px;
+    border-radius: 10px;
+    border:1px solid var(--gray-border);
+}
+
+.form-textarea{
+    min-height: 150px;
+    width: 100%;
+    border-radius: 10px;
+    border:1px solid var(--gray-border);
+}
+.form-button{
+    width: 350px;
+    height: 40px;
+    margin-top: 70px;
+    font-family: 'Tahoma';
+    font-size: 20px;
+    font-weight: 400;
+    border-radius: 10px;
+    color: var(--white);
+    background-color: var( --slider-nav-color);
+    transition: transform 0.3s ease, background-color 0.3s ease
+}
+.form-button:hover {
+    transform: scale(1.05) translateY(3px);
+    filter: brightness(1.2); 
+}
+/* SOCIAL MEDIA */
+.social-media {
+   position: relative;
+   margin-bottom: 90px;
+   margin-left: 40px;
+    width: 800px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -50px;
+    
+}
+.social-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 20px;
+    font-family: 'Tahoma';
+    font-weight: 400;
+   
 }
