@@ -6,6 +6,7 @@ body {
     background-color: #f4f4f4; 
     color: #333; 
     overflow-x: hidden;
+    padding-top: 91px;
 }
 *, *::before, *::after {
     box-sizing: inherit;
