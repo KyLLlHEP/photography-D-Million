@@ -50,3 +50,10 @@
     margin-top: 46px;
     margin-right: 128px;
 }
+.home__content-button.btn {
+    transition: opacity 0.3s ease;
+  }
+
+.home__content-button.btn:hover {
+    opacity: 0.7; 
+  }
